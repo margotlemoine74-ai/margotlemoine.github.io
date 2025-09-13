@@ -1,18 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Mon site perso</title>
+  <title>Portfolio - [Ton prénom]</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Bienvenue sur mon site</h1>
-  <p>Je m’appelle [Ton prénom], je suis en terminale et passionné(e) par les sciences.</p>
-  <p>Voici mes projets personnels :</p>
-  <ul>
-    <li>Simulation d’épidémie en Python</li>
-    <li>Expérience sur la gravité</li>
-    <li>Articles de vulgarisation scientifique</li>
-    <li>Montage d une video instagram d une rectte</li>
-  </ul>
+  <header>
+    <h1>Portfolio de [Ton prénom]</h1>
+    <p>Élève en Terminale | Passionné(e) par les sciences et l’ingénierie</p>
+  </header>
+
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#projects">Projets</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>À propos de moi</h2>
+    <p>Je m’appelle [Ton prénom]. Je suis en Terminale spécialité Maths et Physique-Chimie. 
+    Mon objectif est d’intégrer une école d’ingénieur comme l’INSA ou Polytech pour développer mes compétences scientifiques et techniques.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Mes projets</h2>
+    <ul>
+      <li><strong>Simulation d’épidémie en Python :</strong> modélisation mathématique simple avec des courbes.</li>
+      <li><strong>Expérience sur la gravité :</strong> mesure de g avec un chronomètre et des calculs.</li>
+      <li><strong>Création de ce site :</strong> hébergé gratuitement sur GitHub Pages.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Me contacter</h2>
+    <p>Email : <a href="mailto:ton.email@example.com">ton.email@example.com</a></p>
+    <p>GitHub : <a href="https://github.com/tonpseudo" target="_blank">https://github.com/tonpseudo</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 [Ton prénom] - Portfolio étudiant</p>
+  </footer>
 </body>
 </html>
+
